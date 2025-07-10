@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Painel de Controle de Usuários</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="main-header">
+      <h1>Painel de Controle</h1>
+      <div class="header-actions">
+        <a href="https://sigaa.unifei.edu.br/sigaa/verTelaLogin.do" target="_blank" rel="noopener noreferrer">
+          <button class="sigaa-btn">SIGAA</button>
+        </a>
+        <button id="toggle-config-btn" class="icon-btn" title="Configurações">⚙️</button>
+      </div>
+    </div>
+
+    <div id="config-panel" class="config-panel">
+      <div class="config-item">
+        <label for="num-aulas">Nº de Aulas:</label>
+        <input type="number" id="num-aulas" value="2" min="1" />
+      </div>
+      <div class="config-item">
+        <label for="duracao-aula">Duração (min):</label>
+        <input type="number" id="duracao-aula" value="55" min="1" />
+      </div>
+      <div class="config-item">
+        <label for="min-presenca">Presença (%):</label>
+        <input type="number" id="min-presenca" value="60" min="0" max="100" />
+      </div>
+      <div class="config-item toggle-row">
+        <label for="toggle-detalhes-switch">Mostrar Dados de Conexão</label>
+        <label class="switch">
+          <input type="checkbox" id="toggle-detalhes-switch" aria-label="Mostrar dados de conexão" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+
+    <div id="usuarios-list"></div>
+  </div>
+
+  <a href="https://unifei.edu.br/" target="_blank" rel="noopener noreferrer">
+    <img src="/static/logo-unifei-grande.png" alt="Logo UNIFEI" class="logo-footer" />
+  </a>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

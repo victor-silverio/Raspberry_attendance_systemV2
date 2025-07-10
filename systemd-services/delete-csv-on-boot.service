@@ -1,0 +1,12 @@
+[Unit]
+Description=Delete specific CSV files at boot
+After=local-fs.target network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/sh -c "set -x; /bin/rm -vf /home/victo/inventario_hosts_completo.csv; /bin/rm -vf /home/victo/chamada-app/dados_coletados.csv; /bin/rm -vf /home/victo/sessoes_usuarios.json "
+
+
+[Install]
+WantedBy=multi-user.target

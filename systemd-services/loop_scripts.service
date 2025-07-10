@@ -1,0 +1,15 @@
+[Unit]
+Description=Loop de execução dos scripts parser_nmap.py e timestamps.py
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/victo
+ExecStart=/home/victo/loop_scripts.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

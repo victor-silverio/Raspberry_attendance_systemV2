@@ -1,0 +1,20 @@
+[
+    {
+        "Nome": "Victor Augusto",
+        "Numero": "2029016677",
+        "Mac": "88:F4:DA:98:AF:5D",
+        "ip": "192.168.1.10",
+        "sessoes": [
+            {
+                "conexao": "08:55:06"
+            },
+            {
+                "desconexao": "08:58:22"
+            },
+            {
+                "reconexao": "08:58:56"
+            }
+        ],
+        "ultimo_status": 1
+    }
+]

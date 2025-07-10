@@ -1,0 +1,13 @@
+[Unit]
+Description=Flask Web App - Sessões de Usuários
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/victo
+ExecStart=/usr/bin/python3 /home/victo/app.py
+Restart=always
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
