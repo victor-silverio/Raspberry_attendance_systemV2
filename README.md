@@ -7,10 +7,10 @@
 
 ## 📑 Sumário
 
-- [Demonstração](#-demonstração)
-- [Como Funciona](#-como-funciona)
-- [Resumo Técnico](#-resumo)
-- [Contato](#-contato)
+- [Demonstração](#demonstração)
+- [Como Funciona](#como-funciona)
+- [Resumo Técnico](#resumo)
+- [Contato](#contato)
 
 ---
 
