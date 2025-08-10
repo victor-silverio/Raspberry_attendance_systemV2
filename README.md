@@ -9,7 +9,7 @@
 
 - [Demonstração](#-demonstração)
 - [Como Funciona](#-como-funciona)
-- [Resumo Técnico](#-Resumo)
+- [Resumo Técnico](#-resumo)
 - [Contato](#-contato)
 
 ---
