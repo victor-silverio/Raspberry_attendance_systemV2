@@ -9,7 +9,7 @@
 
 - [Demonstração](#-demonstração)
 - [Como Funciona](#-como-funciona)
-- [Resumo Técnico](#-resumo-técnico)
+- [Resumo Técnico](#-resumo)
 - [Contato](#-contato)
 
 ---
@@ -164,7 +164,7 @@ O sistema ECOP11A_Rasp-Attend-2 utiliza um Raspberry Pi para automatizar a colet
 
 ---
 
-## 🛠️ Resumo Técnico
+## 🛠️ Resumo
 
 | Componente         | Função                                                                 |
 |--------------------|------------------------------------------------------------------------|
